@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – FoodHunt</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <style>
+    :root {
+      --red: #E8231A;
+      --red-dark: #c01a12;
+      --red-light: #fff0ef;
+      --bg: #fafafa;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #eee;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--red);
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: -60px;
+      right: -60px;
+      width: 220px;
+      height: 220px;
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 50%;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: -40px;
+      width: 180px;
+      height: 180px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .logo-icon {
+      width: 44px;
+      height: 44px;
+      background: white;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+    }
+
+    .logo-text {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      font-weight: 900;
+      color: white;
+      letter-spacing: -0.5px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 5vw, 42px);
+      font-weight: 700;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    /* MAIN */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .intro-card {
+      background: var(--red-light);
+      border-left: 4px solid var(--red);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
+      margin-bottom: 40px;
+      font-size: 15px;
+      color: var(--red-dark);
+      font-weight: 500;
+    }
+
+    section {
+      margin-bottom: 40px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
+    .section-number {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--red);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 12px;
+      font-weight: 300;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    ul li {
+      font-size: 15px;
+      color: #444;
+      font-weight: 300;
+      margin-bottom: 6px;
+    }
+
+    ul li::marker {
+      color: var(--red);
+    }
+
+    a {
+      color: var(--red);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--text);
+      color: rgba(255, 255, 255, 0.5);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 13px;
+      font-weight: 300;
+    }
+
+    footer span {
+      color: var(--red);
+      font-weight: 500;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-icon">🍽️</div>
+      <div class="logo-text">FoodHunt</div>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: May 3, 2026</p>
+  </header>
+
+  <main>
+    <div class="intro-card">
+      This Privacy Policy explains how FoodHunt ("we", "our", or "us") collects, uses, and protects your information
+      when you use the FoodHunt mobile application.
+    </div>
+
+    <section>
+      <div class="section-number">01</div>
+      <h2>Information We Collect</h2>
+      <p>We collect the following information when you use FoodHunt:</p>
+      <ul>
+        <li><strong>Personal Information:</strong> Name, email address, and phone number provided during registration.
+        </li>
+        <li><strong>Location Data:</strong> Your approximate or precise location to show nearby restaurants, cafes, and
+          food suppliers.</li>
+        <li><strong>Usage Data:</strong> Information about how you interact with the app, including searches, clicks,
+          and viewed listings.</li>
+        <li><strong>Device Information:</strong> Device type, operating system version, and unique device identifiers.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-number">02</div>
+      <h2>How We Use Your Information</h2>
+      <p>We use the information we collect to:</p>
+      <ul>
+        <li>Provide and improve the FoodHunt service.</li>
+        <li>Show you relevant restaurants, cafes, bakeries, and food suppliers near you.</li>
+        <li>Send OTP verification codes during registration via your phone number.</li>
+        <li>Personalize your experience and remember your preferences.</li>
+        <li>Respond to your inquiries and provide customer support.</li>
+        <li>Ensure the security and integrity of our platform.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-number">03</div>
+      <h2>Firebase & Third-Party Services</h2>
+      <p>FoodHunt uses Firebase (by Google) for authentication and data storage. Firebase may collect certain data as
+        described in <a href="https://firebase.google.com/support/privacy" target="_blank">Google's Privacy Policy</a>.
+      </p>
+      <p>We do not sell your personal information to third parties.</p>
+    </section>
+
+    <section>
+      <div class="section-number">04</div>
+      <h2>Location Information</h2>
+      <p>FoodHunt requests access to your device's location to show food businesses and suppliers near you. Location
+        access is optional — you may skip location permission and still use the app. We do not share your precise
+        location with third parties.</p>
+    </section>
+
+    <section>
+      <div class="section-number">05</div>
+      <h2>Data Security</h2>
+      <p>We take reasonable measures to protect your information from unauthorized access, alteration, disclosure, or
+        destruction. Your data is stored securely using Firebase's infrastructure.</p>
+    </section>
+
+    <section>
+      <div class="section-number">06</div>
+      <h2>Children's Privacy</h2>
+      <p>FoodHunt is not directed to children under the age of 13. We do not knowingly collect personal information from
+        children under 13.</p>
+    </section>
+
+    <section>
+      <div class="section-number">07</div>
+      <h2>Your Rights</h2>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access the personal information we hold about you.</li>
+        <li>Request correction or deletion of your data.</li>
+        <li>Withdraw consent for location access at any time via your device settings.</li>
+        <li>Delete your account by contacting us.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-number">08</div>
+      <h2>Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating
+        the date at the top of this page. Continued use of FoodHunt after changes constitutes acceptance of the updated
+        policy.</p>
+    </section>
+
+    <section>
+      <div class="section-number">09</div>
+      <h2>Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+      <p><strong>FoodHunt</strong><br />
+        Pakistan<br />
+        Email: <a href="mailto:iventurespk@gmail.com">iventurespk@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 <span>FoodHunt</span> · Eat Smarter, Not Harder · All rights reserved.
+  </footer>
+
+</body>
+
+</html>
